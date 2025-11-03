@@ -9,6 +9,7 @@ import Foundation
 
 public final class DependencyContainer {
     
-    @MainActor public static let shared = DependencyContainer()
+    public static let shared = DependencyContainer()
+    
     private init() {}
 }
