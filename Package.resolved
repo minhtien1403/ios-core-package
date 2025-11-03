@@ -1,0 +1,15 @@
+{
+  "originHash" : "7681e4aef8be3c719cd9557370305380f16fab160ad02365f0fdfceefe49277b",
+  "pins" : [
+    {
+      "identity" : "ios-shared-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/minhtien1403/ios-shared-package",
+      "state" : {
+        "branch" : "master",
+        "revision" : "202b80cec6569894e38200813c1bdef0ff644c7b"
+      }
+    }
+  ],
+  "version" : 3
+}
