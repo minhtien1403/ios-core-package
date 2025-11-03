@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-public class BaseViewController<ViewModelType>: UIViewController {
+open class BaseViewController<ViewModelType>: UIViewController {
     
     // MARK: - Properties
     public let viewModel: ViewModelType

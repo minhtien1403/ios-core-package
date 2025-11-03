@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-public class BaseViewModel {
+open class BaseViewModel {
     
     public var cancellables = Set<AnyCancellable>()
     public init() {}
