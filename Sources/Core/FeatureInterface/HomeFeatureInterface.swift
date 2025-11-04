@@ -10,5 +10,5 @@ import UIKit
 public protocol HomeFeatureInterface {
     
     func makeUserListViewController() -> UIViewController
-    func makeUserdetailViewController() -> UIViewController
+    func makeUserdetailViewController(username: String) -> UIViewController
 }
