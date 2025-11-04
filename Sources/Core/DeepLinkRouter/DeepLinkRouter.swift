@@ -14,12 +14,15 @@ public final class DeepLinkRouter {
     public init() {}
 
     public func register(_ handler: DeepLinkHandler) {
+        Log.context()
         handlers.append(handler)
     }
 
     public func resolveViewController(for link: DeepLink) -> UIViewController? {
+        Log.context()
         for handler in handlers {
             if handler.canHandle(link) {
+                Log.context()
                 return handler.viewController(for: link)
             }
         }
